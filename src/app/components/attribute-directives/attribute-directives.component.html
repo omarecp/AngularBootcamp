@@ -1,0 +1,10 @@
+<div class="attr-directive">
+  <h2>NgClass</h2>
+  <p [ngClass]="{ redText: isActive }">Hello</p>
+
+  <h2>NgStyle</h2>
+  <p [ngStyle]="{ color: isActive ? 'red' : 'black' }">Hello</p>
+
+  <p>isActive:{{ isActive }}</p>
+  <button type="button" (click)="toggleActive()">Toggle active</button>
+</div>
