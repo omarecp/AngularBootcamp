@@ -11,4 +11,5 @@ export class DataBindingComponent {
   clickMe() {
     alert('I was triggered by an event');
   }
+  //renamed branch
 }
